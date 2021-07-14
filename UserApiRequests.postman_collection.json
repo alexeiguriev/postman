@@ -26,11 +26,22 @@
 			"response": []
 		},
 		{
-			"name": "Use",
+			"name": "User",
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": null
+				"url": {
+					"raw": "https://localhost:44303/api/User",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44303",
+					"path": [
+						"api",
+						"User"
+					]
+				}
 			},
 			"response": []
 		},
@@ -134,11 +145,11 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": "/D:/Document/Lista institutiilor medicale.pdf"
+							"src": "/D:/Documente/59858_md_codul_muncii__ru.pdf"
 						},
 						{
 							"key": "text",
-							"value": "{\n    \"Status\":\"1\",\n    \"UpdaterId\":\"1\",\n}",
+							"value": "{\n    \"Status\":\"1\",\n    \"UpdaterId\":\"1\"\n\n}",
 							"type": "text"
 						}
 					]
@@ -182,7 +193,7 @@
 					]
 				},
 				"url": {
-					"raw": "https://localhost:44303/api/Document1",
+					"raw": "https://localhost:44303/api/Document",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -190,7 +201,114 @@
 					"port": "44303",
 					"path": [
 						"api",
-						"Document1"
+						"Document"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Role",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44303/api/Role",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44303",
+					"path": [
+						"api",
+						"Role"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Role",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Name\": \"TestRole\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44303/api/Role",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44303",
+					"path": [
+						"api",
+						"Role"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Role",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Name\": \"TestRole1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44303/api/Role",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44303",
+					"path": [
+						"api",
+						"Role"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Role",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Name\": \"TestRole1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44303/api/Role",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44303",
+					"path": [
+						"api",
+						"Role"
 					]
 				}
 			},
